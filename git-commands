@@ -1,21 +1,41 @@
 //clone git repo
-git clone "link to repo"
+	git clone "link to repo"
 
 //edit author name and email (will open with vi)
-git config --global --edit
+	git config --global --edit
+	//also can do
+  		git config --global user.name "Your Name"
+  		git config --global user.email you@example.com
+  			//found here:
+  			//$ git commit -m "added new commands to git-commands" //<--command executed
 
+			//gh-pages 3fe63f2] added new commands to git-commands
+ 			//Committer: username <email>
+			//Your name and email address were configured automatically based
+			//on your username and hostname. Please check that they are accurate.
+			//You can suppress this message by setting them explicitly:
+
+			//		git config --global user.name "Your Name"
+    		//		git config --global user.email you@example.com
+
+			//After doing this, you may fix the identity used for this commit with:
+
+    		//		git commit --amend --reset-author
 
 //find which branch and which files are being tracked
-git status
+	git status
 
 //change branch
-git checkout "branch name"
+	git checkout "branch name"
 
 //add files to be tracked
-git add "file"	// use "git add ." for all within this directory and maybe sub directories?
+	git add "file"
+	// use "git add ." for all within this directory and maybe sub directories?
 
 //commit changes to local repo with message 
-git commit -m "message here"
+	git commit -m "message here"
 
 //push commit /publish changes  to github repo
-git push
+	git push
+
+
