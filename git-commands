@@ -1,3 +1,15 @@
+/******************************************************/
+//browser sync command:
+	browser-sync start --server --directory --files "*"
+
+	// --server
+	//		starts browser-sync in server mode as a local http server
+	// --directory
+	//		will give a directory listing of the current folder which is in this case "site/"
+	// --files 
+	//		which file should browser-sync watch for (if any of these file change browser sync will reload those in the browser which makes refreshing the page redundunt)
+/****************************************************/
+
 //clone git repo
 	git clone "link to repo"
 
@@ -38,4 +50,6 @@
 //push commit /publish changes  to github repo
 	git push
 
+//pull changes from github to local repo
+git pull
 
