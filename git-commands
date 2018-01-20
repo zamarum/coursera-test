@@ -1,0 +1,9 @@
+//clone git repo
+git clone "link to repo"
+
+//find which branch
+git status
+
+//change branch
+git checkout "branch name"
+
