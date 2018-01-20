@@ -1,0 +1,15 @@
+//clone git repo
+git clone "link to repo"
+
+//find which branch and which files are being tracked
+git status
+
+//change branch
+git checkout "branch name"
+
+//add files to be tracked
+git add "file"	// use "git add ." for all within this directory and maybe sub directories?
+
+//edit author name and email (will open with vi)
+git config --global --edit
+
